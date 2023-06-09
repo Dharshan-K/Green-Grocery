@@ -1,0 +1,22 @@
+{
+  "name": "nexy-app-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "node-appwrite": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22"
+  }
+}
